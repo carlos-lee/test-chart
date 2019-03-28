@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: {{commons.repository}}/{{commons.repositoryNamespace}}/golang-http
-  tag: stable
+  tag: stabl
   pullPolicy: IfNotPresent
 
 nameOverride: ""
