@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: {{ .Chart.Name }}
-          image: "{{ .Values.image.repository }}/test-src:{{ default 'latest' .Values.image.tag.test-src }}"
+          image: {{ .Values.image.repository }}/test-src:{{ default "latest" .Values.image.tag.test_src }}
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http

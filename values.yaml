@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: '{{commons.repository}}/{{commons.repositoryNamespace}}'
   tag:
-    test-src: a960e3628e264b2f6b24d8b3d7522a79a76feb2f
+    test_src: a960e3628e264b2f6b24d8b3d7522a79a76feb2f
   pullPolicy: IfNotPresent
 nameOverride: ''
 fullnameOverride: ''
