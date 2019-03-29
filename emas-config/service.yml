@@ -12,15 +12,3 @@ dependencies:
   - type: rocketmq
     id: default
 
-
-##!/bin/sh
-#cd test-src
-#make build
-#commit_id=`git rev-parse HEAD`
-#project_dir=`pwd`
-#project_name=${project_dir##*/}
-#image_name=192.168.0.201:5000/admin/${project_name}:${commit_id}
-#docker build -t $image_name .
-#docker push $image_name
-#cd ../test-chart
-#sed -i "9s:.*:${commit_id}:g" values.yml
